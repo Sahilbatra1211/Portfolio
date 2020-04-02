@@ -60,7 +60,7 @@
 }
 
 .banner-text h1{
-  font-size: 66px;
+  font-size: 50px;
   font-weight: bold;
   color: white;
 }
@@ -89,4 +89,47 @@
   color:white;
   font-size: 5em;
   padding: 8px;
+}
+
+.con-cla{
+  font-size: 30px;
+  font-family: Anton;
+}
+
+@media screen and (max-width:959px){
+  /*landing page*/
+  .banner-text{
+    width:75%;
+  }
+
+  .banner-text h1{
+    font-size: 30px;
+  }
+
+  .banner-text p{
+    font-size: 13px;
+    padding: 0.5em;
+  }
+  .social-links{
+    justify-content: center;
+  }
+  .social-links i{
+    font-size: 3em;
+    padding: 4px;
+  }
+  /*contact*/
+  .contact-body{
+    position: relative;
+  }
+  .con-cla{
+    font-size:20px;
+  }
+  /*Projects*/
+
+  .pro-cla{
+    
+  
+  }
+
+
 }

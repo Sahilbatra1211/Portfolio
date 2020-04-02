@@ -9,11 +9,12 @@ class Resume extends Component {
   render() {
     return(
       <div>
+        <p><h4>For detailed Resume:<a href="https://drive.google.com/open?id=1SxH3kATgpzuTYqo3BngFKNuNRAWiq4gk" target="_blank"  rel="noopener noreferrer">Click Here</a></h4></p>
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
             <img
-                        src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"
+                       src={require('../assets/circle-cropped.png')}
                         alt="avatar"
                         className="avtar-img"
                         />
@@ -22,14 +23,14 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Sahil Batra</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+           <p> I am doing competitive programming since 2 years and always keen to learn new algorithms. I am also a full stack web developer and has made projects using Nodejs and React. Nowadays I am studying network security and cloud computing and trying to make some good projects in it.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>1957 Rani Bagh, Delhi-110034</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>(+91) 7011227220</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>sahilbatra1211@gmail.com</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -39,17 +40,17 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2015}
+              endYear={2017}
+              schoolName="Goodley Public School"
+              schoolDescription="I have done my 11-12th from cbse board. Scored 93 per cent in my 12th board exam and 10 cgpa in class 10th."
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                 startYear={2017}
+                 endYear={2021}
+                 schoolName="Thapar Institute of Engineering and Technology"
+                 schoolDescription="I am pursuing Computer Science(B.E). My current cgpa is 9.1 and my specialisation subject is Network Security."
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -71,11 +72,11 @@ class Resume extends Component {
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
+                skill="C++"
                 progress={100}
                 />
                 <Skills
-                  skill="HTML/CSS"
+                  skill="React"
                   progress={80}
                   />
                   <Skills
@@ -83,7 +84,7 @@ class Resume extends Component {
                     progress={50}
                     />
                     <Skills
-                      skill="React"
+                      skill="Javascript"
                       progress={25}
                       />
 
